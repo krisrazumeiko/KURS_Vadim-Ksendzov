@@ -1,0 +1,17 @@
+#!/bin/bash
+
+mkdir scriptfolder
+
+cd scriptfolder
+
+mkdir folder{1..3}
+
+cd folder1
+
+touch file{1..3}.txt file{1..2}.json
+
+mkdir subfolder{1..3}
+
+ls -la /d/kristina/qa/terminal/dz1/scriptfolder/folder1
+
+echo "Скрипт отработал успешно!"

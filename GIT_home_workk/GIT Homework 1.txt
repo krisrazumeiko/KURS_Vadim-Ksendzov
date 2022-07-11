@@ -1,0 +1,302 @@
+GIT Homework 1
+
+JSON 
+https://github.com/krisrazumeiko/JSON
+
+4. Создать внешний репозиторий c названием JSON.
+   github/repositories/new/JSON
+
+5. Клонировать репозиторий JSON на локальный компьютер.
+   git clone git@github.com:krisrazumeiko/JSON.git
+
+6. Внутри локального JSON создать файл “new.json”.
+   touch new.json
+
+7. Добавить файл под гит.
+   git add new.json
+
+8. Закоммитить файл.
+   git commit -m "added file new.json"
+
+9. Отправить файл на внешний GitHub репозиторий.
+   git push
+
+10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
+{
+    "firstname": "Kristina",
+    "lastname": "Razumeiko",
+    "age": 30,
+    "amount_pets": 1,
+    "expected_salary": "750$"
+}
+
+11. Отправить изменения на внешний репозиторий.
+    git status
+    git add new.json
+    git commit -m "edited file new.json"
+    git push
+
+12. Создать файл preferences.json
+    touch preferences.json
+
+13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, страна которую хотели бы посетить) в формате JSON.
+{
+    "favorite": {
+        "movie": "Pirates of the Caribbean: The Curse of the Black Pearl",
+        "TV_series": "True_Detective",
+        "food": "ice_cream",
+        "season": "spring",
+        "country": "Montenegro"
+    }
+}
+
+14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
+    touch skills.json
+
+    {
+        "future_skills":{
+            "terminal_Linux": "basic_commands",
+            "git_hub": "create_repositories",
+            "sql": "basic_commands",
+            "json": "basic",
+            "xml": "basic",
+            "http": "methods",
+            "http": "requests",
+            "dev_tools": "web_browsers"          
+    }
+
+15. Отправить сразу 2 файла на внешний репозиторий.
+    git status
+    git add .
+    git commit -m "added files"
+    git push
+
+16. На веб интерфейсе создать файл bug_report.json.
+    github/repositories/JSON/add file/create new file
+
+17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+    bug_report.json/edit this file/Commit changes
+
+18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
+{
+   "bug_report": {
+      "id": 1001,
+      "title": "Ошибка 500 после нажатия на кнопку Аторизоваться на форме входа",
+      "severity": "Blocker",
+      "priority": "High",
+      "environment": "Windows 10 pro x64, Chrome Version 101.0.4951.67 (Official Build) (64-bit)",
+      "precondition": "Открыть браузер и зайти на сайт",
+      "steps_to_reproduce": [
+         "Открыть браузер",
+         "Зайти на сайт",
+         "Нажать на кнопку Войти",
+         "Ввести логин и пароль",
+         "Нажать кнопку Авторизоваться"
+      ],
+      "expected_result": "Пользователь авторизуется на сайте",
+      "actual_result": "Ошибка 500 после нажатия кнопки Авторизоваться"
+   }
+}
+
+19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+    bug_report.json/edit this file/Commit changes
+
+20. Синхронизировать внешний и локальный репозиторий JSON
+    git pull
+============================================================================
+
+XML
+https://github.com/krisrazumeiko/XML
+
+21. Создать внешний репозиторий c названием XML.
+    github/repositories/new/XML
+
+22. Клонировать репозиторий XML на локальный компьютер.
+    git clone git@github.com:krisrazumeiko/XML.git
+
+23. Внутри локального XML создать файл “new.xml”.
+    touch new.xml
+
+24. Добавить файл под гит.
+    git add new.xml
+
+25. Закоммитить файл.
+    git commit -m "added file new.xml"
+
+26. Отправить файл на внешний GitHub репозиторий.
+    git push
+
+27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
+    <?xml version="1.0" encoding="UTF-8"?>
+    <note>
+        <firstname>Kristina</firstname>
+        <lastname>Razumeiko</lastname>
+        <age>30</age>
+        <amount_pets>1</amount_pets>
+        <expected_salary>750$</expected_salary>
+    </note>
+
+28. Отправить изменения на внешний репозиторий.
+    git status
+    git add .
+    git commit -m "modify file new.xml"
+    git push
+
+29. Создать файл preferences.xml
+    touch preferences.xml
+
+30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
+    <?xml version="1.0" encoding="UTF-8"?>
+    <favorite>
+        <movie>Pirates of the Caribbean: The Curse of the Black Pearl</movie>
+        <TV_series>True_Detective</TV_series>
+        <food>ice_cream</food>
+        <season>spring</season>
+        <country>Montenegro</country>
+    </favorite>
+
+31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+    touch skills.xml
+
+    <?xml version="1.0" encoding="UTF-8"?>
+    <future_skills>
+        <terminal_Linux>basic_commands</terminal_Linux>
+        <git_hub>create_repositories</git_hub>
+        <sql>basic_commands</sql>
+        <json>basic</json>
+        <xml> basic</xml>
+        <http> methods,requests</http>
+        <dev_tools>web_browsers</dev_tools>
+    </future_skills>
+
+32. Сделать коммит в одну строку.
+    git add . | git commit -m "modify 1 new.xml"
+
+33. Отправить сразу 2 файла на внешний репозиторий.
+    git push
+
+34. На веб интерфейсе создать файл bug_report.xml.
+    github/repositories/XML/add file/create new file
+
+35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+    bug_report.xml/edit this file/Commit changes
+
+36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+    bug_report.xml/edit this file
+
+37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+    bug_report.xml/edit this file/Commit changes
+
+38. Синхронизировать внешний и локальный репозиторий XML
+    git pull
+=======================================================================================
+
+TXT
+https://github.com/krisrazumeiko/TXT
+
+1. Создать внешний репозиторий c названием TXT.
+   github/repositories/new/TXT
+
+2. Клонировать репозиторий TXT на локальный компьютер.
+   git clone git@github.com:krisrazumeiko/TXT.git
+
+3. Внутри локального TXT создать файл “new.txt”.
+   touch new.txt
+
+4. Добавить файл под гит.
+   git add new.txt
+
+5. Закоммитить файл.
+   git commit -m "added new.txt"
+
+6. Отправить файл на внешний GitHub репозиторий.
+   git push
+
+7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.
+   Фамилия: Разумейко
+   Имя: Кристина
+   Отчество: Владимировна
+   Возраст: 30
+   Количество домашних животных: 1 кот
+   Будущая желаемая зарплата: 750$
+
+8. Отправить изменения на внешний репозиторий.
+    git add .
+    git commit -m "added modify new.txt"
+    git push
+
+9. Создать файл preferences.txt
+    touch preferences.txt
+
+10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.
+    Любимый фильм: "Пираты Карибского моря: Проклятие Черной жемчужины"
+    Любимый сериал: "Настоящий детектив"
+    Любимая еда: мороженое
+    Любимое время года: весна
+    Страна, которую хотели бы посетить: Черногория
+
+ 11. Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT
+    Скиллы, которые будут изучены на курсе:
+    1. Базовая теория (Что такое тестирование, багрепорты, документация, виды, методы, направления тестирования и т.п.) SDLC, STLC.
+    2. Что такое клиент-серверная архитектура.
+    3. HTTP Методы запросов на сервер.
+    4. Коды ответов HTTP сервера.
+    5. Структуры HTTP запросов и ответов.
+    6. Что такое JSON, XML. Их структура.
+    7. Тестирование API через Postman (JS, автотесты API).
+    8. Снятие и чтение логов c внешнего сервера.
+    9. Снифинг http web трафика через Charles и Fiddler.
+    10. Dev Tools веб браузеров (Google Chrome, FireFox).
+    11. VPN. (Как работает, зачем нужен, как использовать, варианты инструментов)
+    12. Мобильное тестирование.
+    13. Особенность iOS, Android, гайдлайны.
+    14. Сборка iOS приложений на XCode. (У кого нет Mac компьютера, просто посмотрят)
+    15. Сборка Android приложений на Android Studio.
+    16. ADB (управление андройд девайсами).
+    17. Настройка прокси и vpn на iOS и Android.
+    18. Перехват (сниффинг) мобильного трафика через Charles и Fiddler на iOS и Android.
+    19. Командная строка (terminal) Linux (копирование, создание, просмотр, перемещение файлов на серверах без графического интерфейса)
+    20. Основы bash скриптинг, автоматизация рутинных задач на сервере.
+    21. Доступ к удалённым серверам.
+    22. Основы SQL (Create, Delete, Drop, Insert Into, Select, From, Where, Join).
+    23. База данных Postgres (установка, настройка и использование).
+    24. Нереляционная база данных Redis (установка, настройка и использование).
+    25. Нагрузочное тестирование в Jmeter.
+    26. Методология разработки Scrum.
+    27. Python. (Изучение основ. Создание клиент серверного приложения)
+
+ 12. Сделать коммит в одну строку.
+     git add . | git commit -m "added files preferences.txt & skills.txt"
+
+ 13. Отправить сразу 2 файла на внешний репозиторий.
+     git push
+
+ 14. На веб интерфейсе создать файл bug_report.txt.
+     github/repositories/TXT/add file/create new file
+
+ 15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+     bug_report.txt/edit this file/Commit changes
+
+ 16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT.
+     bug_report:
+      Id: 1001
+      Title: Ошибка 500 после нажатия на кнопку Аторизоваться на форме входа
+      Severity: Blocker
+      Priority: High
+      Environment: Windows 10 pro x64, Chrome Version 101.0.4951.67 (Official Build) (64-bit)
+      Precondition: Открыть браузер и зайти на сайт
+      Steps_to_reproduce:
+         1. Открыть браузер
+         2. Зайти на сайт
+         3. Нажать на кнопку Войти
+         4. Ввести логин и пароль
+         5. Нажать кнопку Авторизоваться
+         
+      Expected_result: Пользователь авторизуется на сайте
+      Actual_result: Ошибка 500 после нажатия кнопки Авторизоваться
+
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+     bug_report.txt/edit this file/Commit changes
+
+ 18. Синхронизировать внешний и локальный репозиторий TXT
+     git pull

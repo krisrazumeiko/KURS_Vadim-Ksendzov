@@ -1,0 +1,16 @@
+  bug_report:
+      Id: 1001
+      Title: Ошибка 500 после нажатия на кнопку Аторизоваться на форме входа
+      Severity: Blocker
+      Priority: High
+      Environment: Windows 10 pro x64, Chrome Version 101.0.4951.67 (Official Build) (64-bit)
+      Precondition: Открыть браузер и зайти на сайт
+      Steps_to_reproduce:
+         1. Открыть браузер
+         2. Зайти на сайт
+         3. Нажать на кнопку Войти
+         4. Ввести логин и пароль
+         5. Нажать кнопку Авторизоваться
+         
+      Expected_result: Пользователь авторизуется на сайте
+      Actual_result: Ошибка 500 после нажатия кнопки Авторизоваться
